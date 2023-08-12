@@ -100,11 +100,11 @@ ul {
   background-color: #2e2f42;
 }
 
-.hero-section-heading {
+.hero-heading {
   letter-spacing: 0.02em;
 }
 
-.hero-section-button {
+.hero-button {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -115,30 +115,58 @@ ul {
   cursor: pointer;
 }
 
-.hero-section-button:hover,
-.hero-section-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
 /* ************************************** */
-/* SECTION "OUR VALUES" */
+/* SECTION "VALUES" */
 
-.value-list-item-heading {
+.value-li-heading {
   letter-spacing: 0.02em;
 }
-.value-list-item-paragraf {
+.value-li-paragraf {
   letter-spacing: 0.02em;
 }
 
 /* ************************************** */
-/* SECTION "OUR TEAM" */
+/* SECTION "TEAM" */
 
-.our-team-section {
+.team-section {
   background-color: #f4f4fd;
 }
 
-.our-team-list-item {
+.team-heading {
+  letter-spacing: 0.02em;
+}
+
+.team-li {
   background-color: #ffffff;
+}
+
+.team-li-heading {
+  letter-spacing: 0.02em;
+}
+
+.team-li-paragraph {
+  /* font-size: 16px; */
+  text-align: center;
+}
+
+/* ************************************** */
+/* SECTION "PORTFOLIO" */
+.portfolio-heading {
+  letter-spacing: 0.02em;
+}
+
+.portfolio-li-heading {
+  text-align: left;
+  /* letter-spacing: 0.02em; */
+}
+
+.portfolio-li-paragraph {
+  letter-spacing: 0.02em;
 }
 
 /* ************************************** */
@@ -148,6 +176,6 @@ ul {
   background-color: #2e2f42;
 }
 
-.text-footer {
+.footer-paragraph {
   color: #f4f4fd;
 }
